@@ -1,0 +1,39 @@
+{
+  "name": "teg-events-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TEG Coding Challenge - Events listing app (Vite + React + TypeScript)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .ts,.tsx src || true",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:ui": "vitest --ui",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:report": "playwright show-report"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^14.3.1",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^5.0.4",
+    "jsdom": "^22.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.1.3",
+    "vite": "^5.0.0",
+    "vitest": "^0.34.6",
+    "whatwg-fetch": "^3.6.20"
+  }
+}
